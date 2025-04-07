@@ -1,5 +1,3 @@
-
-
 # 🎬 Movie Watchlist App
 
 A simple React application that allows users to search for movies using the OMDb API and save them to a personal **"Wished"** (watchlist).
@@ -28,14 +26,3 @@ A simple React application that allows users to search for movies using the OMDb
 - React (with hooks: `useState`, `useEffect`)
 - OMDb API for fetching movie data
 - `localStorage` for persisting the watchlist across sessions
-
-## 📌 Notes
-
-- API key is stored in the `KEY` constant.
-- Search requests are cancelled on the fly using `AbortController` to prevent race conditions.
-- Error messages are gracefully handled and displayed.
-- After adding a movie to the Wished list, the search input is automatically cleared.
-
----
-
-Let me know if you want this turned into a real `README.md` file or need a version with screenshots or usage examples!
